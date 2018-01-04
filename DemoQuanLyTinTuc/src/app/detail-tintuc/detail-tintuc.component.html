@@ -1,0 +1,11 @@
+<div *ngIf="tintuc" class="bodyDetail">
+  <h2> {{tintuc.tieuDe}} </h2>
+  <div>
+    <img src='{{tintuc.image}}' >
+  </div>
+  <p align="left"> {{tintuc.noiDung}}</p>
+  <!-- <div [innerHTML] = "tintuc.noiDung"></div> -->
+  <button (click)="goBack()" class="goBack">Go Back</button>
+
+</div>
+

@@ -1,0 +1,26 @@
+<div style="text-align:center">
+  <h1>Quản Lý Tin Tức</h1>
+  <div class="divImage">
+      <a routerLink="/add" class="add">Thêm Tin Tức</a>
+  </div>
+</div>
+
+<div *ngFor="let tintuc of tinTucList" class="tintuc">
+  <div class="divDel">
+      <button class="del" (click)="deleteTinTuc(tintuc.id)"> x </button>
+  </div>
+  <div class="divEdit">
+      <a routerLink="/edit/{{tintuc.id}}" class="edit"> Edit </a>
+  </div>
+  <a routerLink="/detail/{{tintuc.id}}"> {{tintuc.tieuDe}} </a>
+
+    <img src="{{tintuc.image}}">
+
+  <div class="divNoiDung">
+    <p> {{tintuc.noiDung}} </p>
+  </div>
+
+</div>
+<!-- <div *ngIf="selectTinTuc">
+    <p> {{selectTinTuc.noiDung}} </p>
+  </div> -->

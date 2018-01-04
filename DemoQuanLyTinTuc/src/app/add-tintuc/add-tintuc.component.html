@@ -1,0 +1,23 @@
+<div class="body">
+  <div class="head">
+  THÊM MỚI TIN TỨC
+  </div>
+  <table>
+    <tr>
+      <td>Tiêu Đề</td>
+      <td><input #tieuDe placeholder="Tiêu Đề" size="48"></td>
+    </tr>
+    <tr>
+        <td>Nội dung</td>
+        <td> <textarea #noiDung placeholder="Nội dung tin tức" cols="50" rows="5"></textarea> </td>
+    </tr>
+    <tr>
+        <td>Link Ảnh</td>
+        <td> <input #anh placeholder="Link ảnh" size="48"></td>
+    </tr>
+  </table>
+  <div class="divButton">
+    <button (click)="goBack()" class="goBack">Go Back</button>
+    <button (click)="add(tieuDe.value, noiDung.value, anh.value); tieuDe.value=''; noiDung.value=''; anh.value=''; routerLink='/home'" class="goBack">Add</button>
+  </div>
+</div>

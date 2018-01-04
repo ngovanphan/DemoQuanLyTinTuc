@@ -1,0 +1,74 @@
+.tintuc {
+  width: 350px;
+  height: 250px;
+  float: left;
+  border-style: groove;
+  border-width: 1px;
+  /* margin-right: 20px; */
+  margin-left: 60px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  background-color: #86f3f9;
+  overflow: hidden;
+}
+a {
+  text-align: center;
+  color: #f40b2e;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 130%;
+  overflow: hidden;
+}
+img {
+  height: 150px;
+  width: 300px;
+}
+p {
+  padding: 0;
+  font-weight: inherit;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 90%;
+  text-align:left;
+}
+.divNoiDung {
+  height: 30px;
+  width: 230px;
+  overflow: hidden;
+  margin: 10px;;
+}
+h1 {
+  text-align: center;
+  color: #6500ca;
+}
+.add {
+  border: 2px solid #0000ff;
+  border-radius: 12px;
+  color: #ec6a13;
+  padding: 5px;
+}
+.divImage {
+  margin-right: 80%;
+}
+.divDel {
+  float: right;
+  border: 2px solid black;
+  height: 19px;
+  width: 19px;
+  padding: 0px;
+  background: red;
+
+}
+.del {
+  cursor: pointer;
+  color: black;
+}
+.divEdit {
+  float:right;
+  border: 2px solid black;
+  background: white;
+  margin-right: 2px;
+}
+.edit {
+  font-size: 80%;
+  color: black;
+}

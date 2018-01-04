@@ -1,0 +1,31 @@
+table {
+  margin:auto;
+}
+.head {
+  font-size: 150%;
+  color: #ff8000;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  font-weight:  bold;
+}
+.goBack {
+  float: center;
+  border-radius: 12px;
+  border: 2px solid #4CAF50;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.body {
+  margin:auto;
+  width: 500px;
+}
+img {
+  margin: auto;
+  display: inline-block;
+  height: 400px;
+  width: 500px;
+}
+.divButton {
+  margin-right: 300px;
+  margin-top: 20px;
+}

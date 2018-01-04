@@ -1,0 +1,29 @@
+<div class="body"><div class="head">
+    SỬA TIN TỨC
+    </div>
+    <table *ngIf="tintuc">
+        <tr>
+          <td>Tiêu Đề</td>
+          <td><input  [(ngModel)]="tintuc.tieuDe" #tieuDe placeholder="Tiêu Đề" size="48"></td>
+        </tr>
+        <tr>
+            <td>Nội dung</td>
+            <td> <textarea [(ngModel)]="tintuc.noiDung" #noiDung placeholder="Nội dung tin tức" cols="50" rows="5"></textarea> </td>
+        </tr>
+        <tr>
+            <td>Link Ảnh</td>
+            <td> <input [(ngModel)]="tintuc.image" #anh placeholder="Link ảnh" size="48"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td> <img [src]="tintuc.image" > </td>
+        </tr>
+    </table>
+    <div class="divButton">
+        <button (click)="goBack()" class="goBack">Go Back</button>
+        <button (click)="update()" class="goBack">Save</button>
+
+    </div>
+
+
+</div>
